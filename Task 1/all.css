@@ -1,0 +1,200 @@
+html, .main {
+    height: 100%;
+}
+
+.main {
+    margin: 0;
+    font-family: Ubuntu, sans-serif;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.container {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    background-color: rgb(17, 26, 41);
+}
+
+.header-image {
+    height: 250px;
+    background: url('header-bg.jpg') no-repeat right;
+}
+
+.header-text {
+    padding-top: 40px;
+    color: white;
+}
+
+.step {
+    background-color: rgb(191, 212, 222);
+    height: 50px;
+    margin-top: -16px;
+}
+
+.step p {
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+.form-area {
+    background-color: rgb(227, 241, 249);
+    padding-bottom: 35px;
+}
+
+.form-area .container {
+    background-color: white;
+}
+
+.form-area p {
+    padding-left: 35px;
+    font-style: italic;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+form {
+    padding-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    padding-right: 50px;
+    font-weight: bold;
+}
+
+td {
+    text-align: right;
+}
+
+input {
+    width: 275px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+select {
+    margin-left: 25px;
+    width: 279px;
+    height: 33px;
+}
+
+#button {
+    width: 130px;
+    height: 35px;
+    background-color: rgb(54, 70, 84);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.h-foot {
+    height: 50px;
+}
+
+.page-footer {
+    background-color: rgb(54, 70, 84);
+    height: 50px;
+    color: white;
+    margin-top: -50px;
+}
+
+.page-footer p {
+    margin-top: 0px;
+    padding-top: 15px;
+    float: left;
+}
+
+.page-footer ul {
+    padding-top: 15px;
+    margin-top: 0px;
+}
+
+.page-footer li {
+    display: block;
+    float: right;
+}
+
+.page-footer a {
+    color: white;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 280px;
+    }
+
+    .header-image {
+        height: 150px;
+        background: none;
+    }
+
+    .header-text {
+        padding-top: 1px;
+        color: white;
+    }
+
+    .header-text h1 {
+        font-size: 1.1em;
+    }
+
+    .header-text h2, p {
+        font-size: 0.8em;
+    }
+
+    .step p, .form-area p  {
+        padding-left: 15px;
+    }
+
+    table, tr, td {
+        display: block;
+        padding-right: 0px;
+    }
+
+    td {
+        padding-top: 5px;
+    }
+
+    input {
+        width: 125px;
+        height: 15px;
+        margin-left: 15px;
+    }
+
+    select {
+        width: 129px;
+        height: 23px;
+        margin-left: 15px;
+    }
+
+    label {
+        font-size: 0.7em;
+    }
+
+    #button {
+        width: 90px;
+        height: 25px;
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+
+    .page-footer p {
+        font-size: 0.7em;
+        padding-top: 20px;
+    }
+
+    .page-footer a {
+        padding-left: 10px;
+        font-size: 0.7em;
+    }
+}
