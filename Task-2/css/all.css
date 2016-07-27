@@ -576,8 +576,32 @@
         width: 400px;
     }
 
-    .banner {
+    .banner .logo {
         display: none;
+    }
+
+    .banner .call-info, .banner .personal {
+        flex-basis: 45%;
+    }
+
+    .banner h2 {
+        font-size: 19px;
+    }
+
+    .banner .call-info p {
+        font-size: 11px;
+    }
+
+    .banner .personal p {
+        font-size: 15px;
+    }
+
+    .cart img {
+        height: 13px;
+    }
+
+    .search .submit {
+        right: -10px;
     }
 
     .choose-us .fb, .sign-up .fb {
@@ -585,7 +609,7 @@
     }
 
     .nav ul.submenu {
-        width: 290px;
+        width: 291px;
     }
 
     .nav ul.submenu>li {
@@ -632,7 +656,28 @@
         padding-bottom: 10px;
     }
 
-    .page-footer, .h-foot {
+    .h-foot {
+        height: 150px;
+    }
+
+    .page-footer {
+        height: 150px;
+        margin-top: -150px;
+    }
+
+    .page-footer .about-us {
+        display: none;
+    }
+
+    .page-footer .column {
+        margin-left: 35px;
+    }
+
+    .page-footer .column h3 {
+        margin-top: 10px;
+    }
+
+    .page-footer .address {
         display: none;
     }
 }
